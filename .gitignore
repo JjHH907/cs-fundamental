@@ -1,0 +1,19 @@
+#C 기반 CS 학습 레포지토리의 .gitignore 파일.
+#1. 빌드 산출물
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*dll
+a.out
+
+#IDE
+.vs/
+.vscode/
+*.user
+*.suo
+
+#기타
+*.log
+.DS_Store
